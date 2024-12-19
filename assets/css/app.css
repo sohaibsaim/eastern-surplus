@@ -1,0 +1,995 @@
+body {
+	font-family: 'Open Sans', sans-serif!important;
+	overflow-x: hidden;
+	background-color: transparent !important;
+/* 	background: none !important; */
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.header-row {
+	border: none;
+	background-color: rgba(255, 255, 255, 0);
+	padding-top: 0px;
+	margin: 0 auto;
+	max-width: 1250px;
+}
+
+.mobile-pad {
+	padding-top: 30px;
+}
+
+.logo-home {
+	z-index: 99999;
+}
+
+.main-menu {
+	background-color: #002a5f;
+	color: white;
+	border-top: 2px solid rgba(237, 24, 70, 1);
+	margin: 5px auto 0 auto !important;
+	padding: 10px 0;
+	max-width: 1250px;
+	z-index: 99999 !important;
+	clip-path: polygon(0 0, 100% 0, 96% 100%, 4% 100%);
+}
+
+.main-menu a {
+	color: white;
+}
+
+.main-menu a:hover {
+	font-weight: 700;
+}
+
+.text-menu {
+	z-index: 99999 !important;
+}
+
+.menu-right a {
+	color: #373738;
+}
+
+.first-menu {
+/* 	margin-left: 100px; */
+}
+
+.last-menu {
+/* 	margin-right: 100px; */
+}
+
+.blue-menu {
+	padding: 0 40px;
+}
+
+.menu-right i {
+	color: #373738;
+	padding: 0 5px;
+	font-size: 1.5em;
+}
+
+.slick-slide {
+	outline: none;
+}
+
+.slick-dots {
+	top: 150px;
+	left: 380px;
+	max-height: 100px;
+}
+
+.slick-dots li button:before {
+    color: white;
+    opacity: 1;
+}
+
+.slick-dots li.slick-active button:before {
+    color: rgba(237, 24, 70, 1);
+    opacity: 1;
+}
+
+.slide-contain {
+/* 	border: 1px solid purple; */
+	min-width: 800px;
+	max-width: 1250px;
+	margin: 0 auto !important;
+}
+
+.photo-credit {
+	font-size: 0.75em;
+	padding-left: 10px;
+}
+
+.red-box {
+	background-color: rgba(237, 24, 70, 0.8);
+	padding: 20px;
+	margin-top: 200px;
+	min-height: 200px;
+	max-width: 380px;
+}
+
+.no-box {
+	background-color: rgba(237, 24, 70, 0);
+	padding: 20px;
+	margin-top: 200px;
+	min-height: 200px;
+	max-width: 350px;
+}
+
+.red-box-text-1 p {
+	text-transform: uppercase;
+	font-weight: 700;
+	color: white;
+	letter-spacing: -0.025em;
+	font-size: 2.18em;
+	line-height: 1em;
+}
+
+.red-box-text-2 p {
+	text-transform: uppercase;
+	font-weight: 700;
+	color: white;
+	letter-spacing: -0.025em;
+	font-size: 1.75em;
+	line-height: 1em;
+}
+
+.red-box-text-5 p {
+	text-transform: uppercase;
+	font-weight: 700;
+	color: white;
+	letter-spacing: -0.025em;
+	font-size: 1.75em;
+	line-height: 1em;
+}
+
+.no-box-text p {
+	text-transform: uppercase;
+	font-weight: 700;
+	color: white;
+	letter-spacing: -0.025em;
+	font-size: 1.75em;
+	line-height: 1em;
+}
+
+.red-box-text button, .no-box-text button {
+	font-size: 0.95em;
+	background-color: white;
+	color: rgba(237, 24, 70, 1);
+	padding: 10px 20px;
+	border-radius: 5px;
+}
+
+.red-box-text button a, .no-box-text button a {
+	color: rgba(237, 24, 70, 1);
+}
+
+.slides {
+	min-height: 700px;
+	background-size: contain;
+	background-repeat: no-repeat;
+/* 	margin-top: -200px; */
+	overflow: visible;
+	z-index: 0;
+}
+
+/*
+.slides img {
+	width: 100%;
+}
+*/
+
+.slide1 {
+	background-image: url('https://hawkerbattery.com/img/slide1new.jpg');
+	background-size: cover;
+}
+
+.slide2 {
+	background-image: url('https://hawkerbattery.com/img/slide2new.jpg');
+	background-size: cover;
+}
+
+.slide3 {
+	background-image: url('https://hawkerbattery.com/img/slide3new.jpg');
+	background-size: cover;
+}
+
+.slide4 {
+	background-image: url('https://hawkerbattery.com/img/slide4new1.jpg');
+	background-size: cover;
+}
+
+.slide5 {
+	background-image: url('https://hawkerbattery.com/img/slide5new.jpg');
+	background-size: cover;
+}
+
+#video-slide {
+	max-width: 35%;
+	float: left;
+}
+
+#video-slide-copy {
+	padding-top: 50px;
+/* 	border: 1px solid red; */
+	min-height: 200px;
+	max-width: 350px;
+	float: left;
+}
+
+#video-slide-copy button {
+	font-size: 1em;
+	background-color: rgba(237, 24, 70, 1);
+	color: white;
+	padding: 10px 20px;
+	border-radius: 5px;
+}
+
+#video-slide-copy button a {
+	color: white;
+}
+
+.first-line {
+	font-weight: 700;
+	color: #002a5f;
+	font-size: 1.813em;
+	text-transform: uppercase;
+	line-height: 1em;
+}
+
+.battery-row {
+	max-width: 1170px;
+	z-index: 7777;
+}
+
+.main-battery {
+	color: black;
+	font-size: 1.25em;
+	font-weight: 700;
+	z-index: 7777;
+}
+
+.main-battery a {
+	color: black;
+	font-size: 1.25em;
+	font-weight: 700;
+}
+
+.main-battery img {
+	padding-bottom: 10px;
+	z-index: 7777;
+}
+
+.main-battery button {
+	font-size: 0.75em;
+	color: white;
+	background-color: rgba(237, 24, 70, 1);
+	padding: 10px 20px;
+	border-radius: 5px;
+	margin-top: 10px;
+}
+
+.main-battery button a {
+	color: white;
+}
+
+.about-hawker {
+	background-image: url('https://hawkerbattery.com/img/about-bg.jpg');
+	background-color: green;
+	min-height: 600px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: white;
+	margin-top: 50px;
+}
+
+.about-hawker h2 {
+	font-weight: 700;
+	padding-top: 50px;
+	max-width: 1170px;
+	margin: 0 auto;
+}
+
+.about-hawker p {
+	max-width: 1170px;
+	margin: 0 auto;
+}
+
+.about-hawker img {
+	max-width: 1170px;
+	margin: 0 auto;
+}
+
+.why-hawker {
+	background-image: url('https://hawkerbattery.com/img/why-hawker.jpg');
+	min-height: 730px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	color: white;
+}
+
+.why-hawker-box {
+	background-color: rgba(237, 24, 70, 0.8);
+	padding: 20px;
+	margin-top: 50px;
+/* 	min-height: 375px; */
+}
+
+.why-hawker-box h2 {
+	text-transform: uppercase;
+	font-weight: 700;
+	color: white;
+	letter-spacing: -0.025em;
+	font-size: 2.188em;
+	line-height: 1em;
+}
+
+.why-hawker-box p {
+	font-size: .85em;
+	line-height: 1.2em;
+}
+
+#why-list {
+	list-style-type: none;
+	color: black;
+	padding-top: 50px;
+	padding-left: 50px;
+}
+
+#why-list li {
+	height: 80px;
+	width: 100%;
+	padding-top: 20px;
+	padding-left: 30px;
+	line-height: 1.2em;
+	vertical-align: middle;
+/* 	border: 1px solid green; */
+}
+
+.vert {
+	vertical-align: middle;
+}
+
+.why-bold {
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+.fa-arrow-alt-circle-right {
+	color: rgba(237, 24, 70, 1);
+	font-size: 3em;
+}
+
+.footer {
+	background-color: black;
+	color: white;
+	font-size: 0.75em;
+	padding-top: 15px;
+	margin-top: -5px;
+}
+
+.footer img {
+	padding-bottom: 10px;
+}
+
+/* GENERAL SECONDARY */
+
+.secondary {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	max-width: 950px;
+	margin: 0 auto;
+}
+
+.secondary h1 {
+	font-size: 1.75em;
+	letter-spacing: -0.025em;
+	font-weight: 700;
+}
+
+.secondary h2,
+.lit-links h2 {
+	font-size: 1.5em;
+	letter-spacing: -0.025em;
+	font-weight: 700;
+}
+
+.secondary h3 {
+	font-size: 1.5em;
+	letter-spacing: -0.025em;
+	font-weight: 700;
+	color: #c5c5c5;
+}
+
+.secondary p {
+	font-size: 0.95em;
+}
+
+.secondary a {
+	color: rgba(238, 23, 70, 1);
+/* 	text-decoration: underline; */
+}
+
+/* ARMASAFE PAGE */
+
+.armasafe-chart {
+	background-image: url('https://hawkerbattery.com/img/armasafe-bg.jpg');
+	min-height: 730px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	padding-top: 30px;
+}
+
+.unstriped {
+	max-width: 950px;
+	margin: 0 auto;
+}
+
+table.unstriped tbody {
+	background-color: transparent;
+	background: none !important;
+	border: 0;
+}
+
+table.unstriped tbody tr {
+	background-color: transparent;
+	background: none !important;
+	border-bottom: 1px solid #cacaca;
+}
+
+.unstriped td {
+	font-size: 0.85em;
+	border: 0;
+}
+
+.unstriped tr:nth-of-type(1) {
+	font-weight: bold;
+}
+
+.unstriped td:first-child {
+	font-weight: bold;
+}
+
+.footnotes {
+/* 	margin-bottom: 350px; */
+	font-size: 0.85em;
+	max-width: 950px;
+	margin: 0 auto 350px auto;
+}
+
+.armasafe-ctas {
+	background-color: #26272a;
+	padding: 65px 30px;
+}
+
+.cta {
+	color: white;
+	font-weight: 700;
+}
+
+.cta-icon {
+	height: 100px;
+	margin-bottom: 10px;
+}
+
+.cta-icon img {
+	vertical-align: top;
+	max-height: 100px;
+}
+
+.cta-text {
+	height: 80px;
+	margin-bottom: 10px;
+	padding: 0 40px;
+}
+
+.cta-text a {
+	color: white;
+}
+
+.cta-arrow {
+	font-size: 0.75em;
+	padding-top: 40px;
+}
+
+/* MILPC PAGE */
+
+.milpc {
+	background-image: url('https://hawkerbattery.com/img/armasafe-bg.jpg');
+	min-height: 730px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	padding-top: 30px;
+}
+
+#pure-lead {
+	float: right;
+/* 	border: 1px solid red; */
+}
+
+#pure-lead button {
+	font-size: 0.85em;
+	color: white;
+	background-color: rgba(237, 24, 70, 1);
+	padding: 10px 20px;
+	border-radius: 5px;
+	margin-top: 10px;
+}
+
+#pure-lead button a {
+	color: white;
+	text-decoration: none;
+}
+
+.milpc-listing {
+	background-image: url('https://hawkerbattery.com/img/milpc-bg.jpg');
+	min-height: 430px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	padding-top: 30px;
+}
+
+.battery-listing {
+	padding-top: 20px;
+	max-width: 950px;
+	margin: 0 auto !important;
+}
+
+.battery {
+	border: 1px solid white;
+	margin-bottom: 20px;
+}
+
+.battery-image {
+	float: left;
+	height: 100px;
+	display: block;
+	padding-right: 10px;
+	border: 1px solid white;
+}
+
+.battery-info {
+	font-weight: 700;
+	font-size: 0.85em;
+	height: 100px;
+	display: block;
+	border: 1px solid white;
+}
+
+.battery-name {
+	color: rgba(237, 24, 70, 1);
+}
+
+/* PRODUCT PAGE */
+
+.product-info h2 {
+	font-size: 1.25em;
+	font-weight: 700;
+	color: #6f6f6f;
+}
+
+.product-info table {
+	font-size: 0.85em;
+	font-weight: 700;
+	color: #6f6f6f;
+	margin-bottom: 100px;
+}
+
+.product-info table td {
+	width: 50%;
+}
+
+.hawker-brand {
+	color: rgba(237, 24, 70, 1);
+	font-size: 1.5em;
+}
+
+.product-name {
+	color: black;
+	font-weight: 700;
+	font-size: 2.375em;
+}
+
+.part-number {
+	color: #6f6f6f;
+	font-weight: 700;
+	font-size: 1.5em;
+}
+
+.group-number {
+	color: #6f6f6f;
+	font-size: 0.938em;
+}
+
+.product-downloads img {
+	margin-bottom: 40px;
+}
+
+.product-downloads button {
+	font-size: 0.85em;
+	color: white;
+	background-color: rgba(237, 24, 70, 1);
+	padding: 10px 20px;
+	border-radius: 5px;
+	margin-top: 10px;
+}
+
+.product-downloads button a {
+	text-decoration: none;
+	color: white;
+}
+
+/* VIDEO VAULT */
+
+.video-hr {
+	width: 100%;
+	border-bottom: 2px solid rgba(237, 24, 70, 1);
+	margin-bottom: 20px;
+/* 	margin-top: -100px; */
+}
+
+.video-title {
+	height: 4em;
+	font-weight: 700;
+    padding-top: .5em;
+}
+
+.video-thumb button,
+.video-thumb a.video-button {
+	font-size: 0.85em;
+	color: #fff;
+	background-color: rgba(237, 24, 70, 1);
+	padding: 10px 20px;
+	border-radius: 5px;
+	margin-top: 10px;
+	margin-bottom: 50px;
+}
+
+.video-thumb button a,
+.video-thumb a.video-button {
+	color: #fff;
+	text-decoration: none;
+}
+
+.video-thumb a.video-button {
+    display: inline-block;
+}
+
+.video-bg {
+	background-image: url('https://hawkerbattery.com/img/video-bg.png');
+	min-height: 350px;
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center bottom;
+}
+
+/* CONTACT PAGE */
+
+.fa-phone-alt {
+	color: rgba(237, 24, 70, 1);
+	font-size: 2em;
+	padding-right: 20px;
+}
+
+.fa-envelope {
+	color: rgba(237, 24, 70, 1);
+	font-size: 2em;
+	padding-right: 20px;
+}
+
+.telephone-text {
+
+}
+
+.email-text {
+
+}
+
+.new-contact {
+	background-color: #032c5e;
+	color: white !important;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.new-contact label {
+	background-color: #032c5e;
+	color: white !important;	
+}
+
+.new-contact input[type=submit] {
+	background-color: red;
+	color: white;
+	padding: 10px 20px;
+}
+
+.new-contact textarea {
+	min-height: 100px;
+	margin-bottom: 20px;
+}
+
+/* ABOUT PAGE */
+
+.about-page {
+	background-image: url('https://hawkerbattery.com/img/about-bg-1.jpg');
+	min-height: 815px;
+	margin-top: -400px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center bottom;
+}
+
+/* COMPARE PAGE */
+
+#armasafe-compare td {
+	width: 50%;
+}
+
+#armasafe-compare tbody th, #armasafe-compare tbody td {
+	padding: 0 20px !important;
+}
+
+.armasafe-header {
+	min-height: 30px;
+	font-size: 1.5em;
+	letter-spacing: -0.025em;
+	font-weight: 700;
+	border-bottom: 1px solid black;
+}
+
+/* RESOURCES PAGE */
+
+.video-page {
+	padding-bottom: 50px;
+}
+
+.res-icons,
+.top-6 {
+	text-align: center;
+}
+
+.top-6 img {
+	border: 1px solid #333;
+	margin-bottom: 30px;
+}
+
+.lit-links a {
+	color: #002a5f;
+}
+
+#accordion h3 {
+	color: #002a5f;
+	cursor: pointer;
+	font-size: 1em;
+}
+
+#accordion p, #accordion li {
+	font-size: 0.85em;
+}
+
+.small-icons img {
+	max-height: 100px;
+	padding-left: 20px;
+}
+
+.question {
+	cursor: pointer;
+}
+
+.answer {
+	display: none;
+}
+
+/* RESOURCES PAGE */
+
+/* EVENTS PAGE */
+
+table.unstriped1 tbody {
+	background-color: transparent;
+	background: none !important;
+	border: 0;
+}
+
+table.unstriped1 tbody tr {
+	background-color: transparent;
+	background: none !important;
+	border-bottom: 1px solid #cacaca;
+}
+
+.unstriped1 td {
+	font-size: 0.85em;
+	border: 0;
+}
+
+.unstriped1 td:first-child {
+/* 	font-weight: bold; */
+}
+
+/* EVENTS PAGE */
+
+/* TRAINING PAGE */
+
+.training-content {
+	background-image: url('https://hawkerbattery.com/img/training-footer.jpg');
+	min-height: 535px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	padding-top: 30px;
+}
+
+.training-bg {
+	background-image: url('https://hawkerbattery.com/img/training-bg-1.jpg');
+	min-height: 450px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	padding-top: 30px;
+}
+
+/* TRAINING PAGE */
+
+/* HAWKER HEADLINES */
+
+.headlines-body {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.quick-tips {
+	background-color: #c4cbd8;
+    margin: 0 -10px 1rem;
+	padding: 1.2rem 10px 10px;
+}
+
+.did-you-know {
+	background-color: #d0e5bc;
+    margin: 0 -10px 1rem;
+	padding: 1.2rem 10px 10px;
+}
+
+/* HAWKER HEADLINES */
+
+@media screen and (max-width: 39.9375em) {
+
+	body {
+/* 		background-color: red !important; */
+	}
+
+	.slides {
+		min-height: 500px;
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: center center;
+		margin-top: -50px;
+		overflow: visible;
+		z-index: 0 !important;
+/* 		max-width: 900px; */
+	}
+	
+	.milpc-listing {
+		margin-top: -150px;
+		background-position-x: -400px;
+	}
+	
+	#pure-lead {
+		display: block;
+		float: none;
+		width: 100% !important;
+	}
+	
+	.question {
+		padding-bottom: 10px;
+	}
+	
+	#contact-form {
+		background-color: #032c5e !important;
+	    padding-top: 50px !important;
+	    margin-top: -50px !important;
+	}
+	
+	.main-battery {
+		margin-top: 125px;
+	}
+	
+	.hamburger-menu {
+		position: absolute;
+		margin: 85px 0px !important;
+	}
+	
+	.main-menu {
+		display:none;
+	}
+	
+	.mobile-pad {
+		padding-top: 10px;
+	}
+}
+
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+
+	body {
+/* 		background-color: green !important; */
+	}
+
+	.slides {
+		min-height: 700px;
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: center center;
+		margin-top: -150px;
+		overflow: visible;
+		z-index: 0 !important;
+		max-width: 1800px;
+	}
+
+	.battery-row {
+		margin: -250px auto 0px auto;
+	}
+
+}
+
+@media screen and (min-width: 64em) {
+
+	body {
+/* 		background-color: coral !important; */
+	}
+
+	.slides {
+/* 		min-height: 900px; */
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: center top;
+		margin-top: 0px !important;
+		overflow: visible;
+		z-index: 0 !important;
+/* 		max-width: 1800px; */
+	}
+
+	.slide3 {
+/* 		background-position-y: 200px; */
+	}
+
+	.first-line {
+		padding-top: 150px;
+	}
+
+	.battery-row {
+		margin: -50px auto 0px auto;
+	}
+
+}
+
+.screen-reader-text  {
+	border: 0;
+	clip: rect(1px, 1px, 1px, 1px);
+	-webkit-clip-path: inset(50%);
+	clip-path: inset(50%);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
+	word-wrap: normal !important; /* many screen reader and browser combinations announce broken words as they would appear visually */
+}
+
+.wpforms-container-full form {
+	width: 100% !important;
+	display: block;
+	max-width: 100% !important;
+}
+
+.wpforms-container-full input {
+	width: 100% !important;
+	display: block;
+	max-width: 100% !important;
+}

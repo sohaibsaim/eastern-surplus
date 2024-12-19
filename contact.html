@@ -3,22 +3,6 @@
 <!doctype html>
 <html class="no-js" lang="en">
   <head>
-	  <!-- Global site tag (gtag.js) - Google Analytics -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-158522726-1"></script>
-		<script>
-		  window.dataLayer = window.dataLayer || [];
-		  function gtag(){dataLayer.push(arguments);}
-		  gtag('js', new Date());
-
-		  gtag('config', 'UA-158522726-1');
-		</script>
-
-    <meta charset="utf-8" />
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-<script>
-var gform;gform||(document.addEventListener("gform_main_scripts_loaded",function(){gform.scriptsLoaded=!0}),document.addEventListener("gform/theme/scripts_loaded",function(){gform.themeScriptsLoaded=!0}),window.addEventListener("DOMContentLoaded",function(){gform.domLoaded=!0}),gform={domLoaded:!1,scriptsLoaded:!1,themeScriptsLoaded:!1,isFormEditor:()=>"function"==typeof InitializeEditor,callIfLoaded:function(o){return!(!gform.domLoaded||!gform.scriptsLoaded||!gform.themeScriptsLoaded&&!gform.isFormEditor()||(gform.isFormEditor()&&console.warn("The use of gform.initializeOnLoaded() is deprecated in the form editor context and will be removed in Gravity Forms 3.1."),o(),0))},initializeOnLoaded:function(o){gform.callIfLoaded(o)||(document.addEventListener("gform_main_scripts_loaded",()=>{gform.scriptsLoaded=!0,gform.callIfLoaded(o)}),document.addEventListener("gform/theme/scripts_loaded",()=>{gform.themeScriptsLoaded=!0,gform.callIfLoaded(o)}),window.addEventListener("DOMContentLoaded",()=>{gform.domLoaded=!0,gform.callIfLoaded(o)}))},hooks:{action:{},filter:{}},addAction:function(o,r,e,t){gform.addHook("action",o,r,e,t)},addFilter:function(o,r,e,t){gform.addHook("filter",o,r,e,t)},doAction:function(o){gform.doHook("action",o,arguments)},applyFilters:function(o){return gform.doHook("filter",o,arguments)},removeAction:function(o,r){gform.removeHook("action",o,r)},removeFilter:function(o,r,e){gform.removeHook("filter",o,r,e)},addHook:function(o,r,e,t,n){null==gform.hooks[o][r]&&(gform.hooks[o][r]=[]);var d=gform.hooks[o][r];null==n&&(n=r+"_"+d.length),gform.hooks[o][r].push({tag:n,callable:e,priority:t=null==t?10:t})},doHook:function(r,o,e){var t;if(e=Array.prototype.slice.call(e,1),null!=gform.hooks[r][o]&&((o=gform.hooks[r][o]).sort(function(o,r){return o.priority-r.priority}),o.forEach(function(o){"function"!=typeof(t=o.callable)&&(t=window[t]),"action"==r?t.apply(null,e):e[0]=t.apply(null,e)})),"filter"==r)return e[0]},removeHook:function(o,r,t,n){var e;null!=gform.hooks[o][r]&&(e=(e=gform.hooks[o][r]).filter(function(o,r,e){return!!(null!=n&&n!=o.tag||null!=t&&t!=o.priority)}),gform.hooks[o][r]=e)}});
-</script>
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<link rel="apple-touch-icon" sizes="57x57" href="./assets/img/apple-icon-57x57.png">
 	<link rel="apple-touch-icon" sizes="60x60" href="./assets/img/apple-icon-60x60.png">
@@ -361,77 +345,26 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
 <div class="grid-x grid-margin-x header-row pt-0 pt-md-5 pt-lg-5 mobile-pad">
 	<div class="cell large-10 large-offset-1">
 		<div class="grid-x grid-margin-x">
-			<div class="cell large-3 large-offset-1">
-				<a class="nav-logo" style="float: left;" href="/home"><img src="./assets/img/hawker-logo.png" /></a>
-		        <a class="toggler-icon d-block d-sm-none hide-for-medium" href="">
-		          <i class="far fa-bars"></i>
-		        </a>
-			</div>
-			<div class="cell large-7 align-self-bottom text-menu d-none d-sm-block">
-				<div class="menu-right text-right show-for-medium">
-					<a href="/about">About</a> | <a href="/contact">Contact</a>  |  <a href="/hawker-headlines">Hawker Headlines</a> | <a href="/resources#faqs">FAQs</a>  |  <a href="/recycling">Recycling</a> <a id="search-btn" href=""><i class="fas fa-search"></i></a> <a href="https://www.linkedin.com/company/enersys" target="_blank"><i class="fab fa-linkedin"></i></a> <a href="https://www.youtube.com/c/EnerSysStoredEnergy" target="_blank"><i class="fab fa-youtube"></i></a>
-        </div>
+			<div class="cell large-3 large-offset-1 logo-home">
+				<a class="nav-logo" href="./index.html"><img src="./assets/img/logo.png" /></a>
 			</div>
 			<div class="cell large-12 main-menu d-none d-sm-block">
 				<div class="grid-x grid-margin-x blue-menu">
-					<div class="cell large-3 text-center first-menu">
-						<a href="/armasafe">ARMASAFE PLUS</a>
+					<div class="cell large-4 text-center first-menu">
+						<a href="/about.html">About</a>
 					</div>
-					<div class="cell large-3 text-center">
-						<a href="/hawker-mil-pc/">HAWKER MIL PC</a>
+					<div class="cell large-4 text-center first-menu">
+						<a href="/contact.html">Contact</a>
 					</div>
-					<div class="cell large-3 text-center">
-						<a href="/resources">RESOURCES</a>
-					</div>
-					<div class="cell large-3 text-center last-menu">
-						<a href="/video-vault">VIDEO VAULT</a>
+					<div class="cell large-4 text-center first-menu">
+						<a href="/faqs.html">FAQs</a>
 					</div>
 				</div>
 			</div>
-
-      <div class="hamburger-menu text-center">
-        <ul>
-          <li><a class="mobile-menu-link" href="/about">About</a></li>
-          <li><a class="mobile-menu-link" href="/contact">Contact</a></li>
-          <li><a class="mobile-menu-link" href="/hawker-headlines">Hawker Headlines</a></li>
-          <li><a class="mobile-menu-link" href="/resources#faqs">FAQs</a></li>
-          <li><a class="mobile-menu-link" href="/recycling">Recycling</a></li>
-          <li><a class="mobile-menu-link" href="/armasafe">ARMASAFE Plus</a></li>
-          <li><a class="mobile-menu-link" href="/hawker-mil-pc/">Hawker MIL PC</a></li>
-          <li><a class="mobile-menu-link" href="/resources">Resources</a></li>
-          <li><a class="mobile-menu-link" href="/video-vault">Video Vault</a></li>
-        </ul>
-        <ul class="d-flex text-center">
-          <li><a class="col-4 pl-0" id="search-btn" href=""><i class="fas fa-search"></i></a></li>
-          <li><a class="col-4" href="https://www.linkedin.com/company/enersys" target="_blank"><i class="fab fa-linkedin"></i></a></li>
-          <li><a class="col-4" href="https://www.youtube.com/c/EnerSysStoredEnergy" target="_blank"><i class="fab fa-youtube"></i></a></li>
-        </ul>
-      </div>
 		</div>
 	</div>
 </div>
-
-
-
-
-<div class="grid-x grid-margin-x">
-	<div class="cell large-8 large-offset-2">
-		<div class="grid-x grid-margin-x secondary">
-			<div class="cell large-12">
-				<h1>Contact Information</h1>
-				<p class="telephone-text"><i class="fas fa-phone-alt"></i> <strong>Telephone: <a href="tel:+1-877-485-1472">877.485.1472</a></strong></p>
-				<p class="email-text"><i class="fal fa-envelope"></i> <strong>Email Hawker<sup>&reg;</sup> Customer Support Team:</strong>  Please fill in the contact information form below and click the "Submit" button.</p>
-        <h1>Order</h1>
-				<p><strong>Federal Supply System (MILSTRIP)</strong>: This purchasing method is recommended for all branches of the US Military, and all other government agencies with access to the system.<!--/p-->
-				</p><p><strong>FedMall</strong>: U.S. Federal Government entities may also requisition directly at: <a href="https://www.fedmall.mil/" target="_blank">https://www.fedmall.mil/</a></p>
-				<p><strong>Direct Quote</strong>: Contact us at <a href="tel:+1-877-485-1472">877.485.1472</a> or by submitting form below.</p>
-				<p style="padding-bottom: 20px;">The ARMASAFE<sup>™</sup> Plus battery is not offered under the EnerSys<sup>®</sup> GSA contract.</p>
-      </div>
-		</div>
-	</div>
-</div>
-
-<div class="grid-x grid-margin-x new-contact">
+<div class="grid-x grid-margin-x new-contact" style="margin-top: 100px;">
   <div class="container cell">
     <div class="cell auto">
       <div class="cell auto">
@@ -496,18 +429,11 @@ gform.initializeOnLoaded( function() {gformInitSpinner( 1, 'https://hawkerbatter
   </div>
 </div> -->
 
-
-
-
-
-
 <div class="grid-x grid-margin-x">
 	<div class="cell large-12 footer text-center">
-		<img src="./assets//img/enersys-logo-footer.png" /><br />
-		<p>&copy;EnerSys<sup>&reg;</sup> <script>document.write(new Date().getFullYear())</script>. All rights reserved.<br />Trademarks and logos are the property of EnerSys<sup>&reg;</sup> and its affiliates unless otherwise noted. Subject to revisions without prior notice. E.&O.E.</p>
+		<p>©EasternSurplus<sup>®</sup> <script>document.write(new Date().getFullYear())</script>. All rights reserved.<br>Trademarks and logos are the property of EasternSurplus<sup>®</sup> and its affiliates unless otherwise noted. Subject to revisions without prior notice. E.&amp;O.E.</p>
 	</div>
 </div>
-
 
 </div>
 <script src="./assets/js/jquery.js"></script>
@@ -570,10 +496,6 @@ var wpcf7 = {
 </script>
 <script src="https://hawkerbattery.com/wp-content/plugins/contact-form-7/includes/js/index.js?ver=6.0.1" id="contact-form-7-js"></script>
 <script src="https://hawkerbattery.com/wp-content/themes/hawker/js/app.min.js?ver=1.6.0" id="appjs-js"></script>
-<script id="gforms_recaptcha_recaptcha-js-extra">
-var gforms_recaptcha_recaptcha_strings = {"site_key":"6LecDN0fAAAAAFUidj_IXa444Yova11u54_jkYRo","ajaxurl":"https:\/\/hawkerbattery.com\/wp-admin\/admin-ajax.php","nonce":"aae6f88f1f"};
-</script>
-<script src="https://www.google.com/recaptcha/api.js?render=6LecDN0fAAAAAFUidj_IXa444Yova11u54_jkYRo&amp;ver=1.6.0" id="gforms_recaptcha_recaptcha-js"></script>
 <script src="https://hawkerbattery.com/wp-includes/js/dist/dom-ready.min.js?ver=f77871ff7694fffea381" id="wp-dom-ready-js"></script>
 <script src="https://hawkerbattery.com/wp-includes/js/dist/a11y.min.js?ver=3156534cc54473497e14" id="wp-a11y-js"></script>
 <script defer='defer' src="https://hawkerbattery.com/wp-content/plugins/gravityforms/js/jquery.json.min.js?ver=2.9.0" id="gform_json-js"></script>
@@ -590,7 +512,6 @@ var gf_global = {"gf_currency_config":{"name":"U.S. Dollar","symbol_left":"$","s
 var gform_theme_config = {"common":{"form":{"honeypot":{"version_hash":"578a869eb61595229bbdf7895398d252"},"ajax":{"ajaxurl":"https:\/\/hawkerbattery.com\/wp-admin\/admin-ajax.php","ajax_submission_nonce":"ce3435a4a0","i18n":{"step_announcement":"Step %1$s of %2$s, %3$s","unknown_error":"There was an unknown error processing your request. Please try again."}}}},"hmr_dev":"","public_path":"https:\/\/hawkerbattery.com\/wp-content\/plugins\/gravityforms\/assets\/js\/dist\/","config_nonce":"00253bf7ee"};
 </script>
 <script defer='defer' src="https://hawkerbattery.com/wp-content/plugins/gravityforms/assets/js/dist/scripts-theme.min.js?ver=c055226f9b8c432c9206edab9070263c" id="gform_gravityforms_theme-js"></script>
-<script src="https://hawkerbattery.com/wp-content/plugins/gravityformsrecaptcha/js/frontend.min.js?ver=1.6.0" id="gforms_recaptcha_frontend-js"></script>
 <script>
 gform.initializeOnLoaded( function() { jQuery(document).on('gform_post_render', function(event, formId, currentPage){if(formId == 1) {} } );jQuery(document).on('gform_post_conditional_logic', function(event, formId, fields, isInit){} ) } );
 </script>

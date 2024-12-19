@@ -304,7 +304,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .why-hawker {
-	background-image: url('https://hawkerbattery.com/img/why-hawker.jpg');
+	background-image: url('../img/why-us.webp');
 	min-height: 730px;
 	background-size: cover;
 	background-repeat: no-repeat;
